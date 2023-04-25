@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ko" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/tailwind.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <title>kodari</title>
+</head>
+
+<body>
+    <div class="wrap mx-auto">
+
+        <!-- nav -->
+        <nav class="nav fixed scroll_nav">
+            <div class="flex items-center">
+                <a href="/">
+                    <img src="/src/images/kodari_logo_white.svg" alt="">
+                </a>
+                <button class="menu ml-auto">
+                    <img src="/src/images/ham_btn.svg" alt="">
+                </button>
+            </div>
+        </nav>
+
+
+
+        <!-- menu_open -->
+        <div class="menu_open">
+            <div class="nav flex">
+                <img src="/src/images/kodari_logo_color.svg" alt="">
+                <button class="close ml-auto">
+                    <img src="/src/images/ic_X.svg" alt="">
+                </button>
+            </div>
+
+            <div class="menu_list px_20 mt30">
+                <a href="/" class="active">HOME</a>
+                <a href="javascript:;" class="list">
+                    RESEARCH
+                    <img class="ml-auto arrow" src="/src/images/ic_low_arrow.svg" alt="">
+                </a>
+                <div class="list_open flex flex-col">
+                    <a href="/intro.html">PROJECT Intro</a>
+                    <a href="/about_app.html">ABOUT APP</a>
+                    <a href="/news.html">NEWS</a>
+                    <a href="/events.html">EVENTS</a>
+                </div>
+                <a href="/product.html">
+                    PRODUCT
+                </a>
+                <a href="javascript:;" class="list">
+                    LAB
+                    <img class="ml-auto arrow" src="/src/images/ic_low_arrow.svg" alt="">
+                </a>
+                <div class="list_open flex flex-col">
+                    <a href="/lab_intro.html">LAB Intro</a>
+                    <a href="/contact_us.html">Contact us</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!--S: content -->
+        <section class="content_wrap">
+            <div class="main_con">
+                <div class="big_logo">
+                    <img src="/src/images/kodari_logo_white.svg" alt="">
+                </div>
+                <div class="text-center font-bold text-white mt-3">
+                    KOREA with a DIARY
+                </div>
+                <div class="text-center text-white mt-2 text-md">
+                    감염병으로부터 나를 지키기 위해 중요한<br />
+                    동선과 증상을 직접 관리해보세요.
+                </div>
+
+                <div class="main_button_area">
+                    <div class="px_20 button_ani">
+                        <a href="https://play.google.com/store/apps/details?id=com.kodari.codeidea" target="_blank"
+                            class="flex w-full gap-3 down_btn bg-white items-center justify-center text-md">
+                            <img src="/src/images/play_store.svg" alt="">
+                            <div>Play Store 다운로드</div>
+                        </a>
+                        <a href="javascript:;"
+                            class="openModal flex w-full gap-3 down_btn bg-white items-center justify-center mt-3 text-md">
+                            <img src="/src/images/app_store.svg" alt="">
+                            <div>App Store 다운로드</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <img src="/src/images/main01_bg.png" alt="">
+        </section>
+
+        <section class="content_wrap py70">
+            <div class="px_20">
+                <div class="flex items-center">
+                    <h2 class="font-bold text-2xl" data-aos="fade-up"><span class="color-primary">KODARI</span>는?</h2>
+                    <div class="ml-auto button_ani">
+                        <a href="/about_app.html">
+                            <img src="/src/images/arrow_right.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-container01 relative mt-5" data-aos="fade-left">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="/src/images/kodari_img01.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/src/images/kodari_img02.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/src/images/kodari_img03.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/src/images/kodari_img04.png" alt="">
+                        </div>
+                    </div>
+                    <!-- 페이지네이션 표시할 요소 -->
+                    <div class="flex relative">
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-num"></div>
+                    </div>
+                </div>
+                <div class="text_card_area flex flex-col ">
+                    <div class="text_card bg-green" data-aos="fade-left">
+                        KODARI는 코로나19와 같은 감염병을
+                        스스로 관리할 수 있도록 만들어진 모바일 앱으로,
+                        간단한 기록을 통해 여러분 스스로의 건강을
+                        관리할 수 있어요 !
+                        <img src="/src/images/card_img_01.svg" alt="">
+                    </div>
+                    <div class="text_card bg-turquoise" data-aos="fade-right">
+                        모바일 앱을 통해 자가 동선 관리, 예방접종 이력,
+                        기저질환 등을 스스로 관리해보세요.
+                        감염병을 관리하고 싶은 누구나 사용이 가능해요!
+                        <img src="/src/images/card_img_02.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="content_wrap">
+            <div class="main_con">
+                <div class="text-center text-white text-xl" data-aos="fade-up">
+                    <h2>스스로 시작하는 감염병 관리,<br />지금 <span class="font-bold text-26">KODARI</span>를 시작하세요!</h2>
+                </div>
+                <div class="mock_img flex justify-center" data-aos="zoom-out-up">
+                    <img src="/src/images/mockup_img01.png" alt="">
+                </div>
+                <div class="main_button_area">
+                    <div class="px_20 button_ani">
+                        <a href="https://play.google.com/store/apps/details?id=com.kodari.codeidea" target="_blank"
+                            class="flex w-full gap-3 down_btn items-center justify-center text-md border border-white bg-trans text-white">
+                            <img src="/src/images/play_store.svg" alt="">
+                            <div>Play Store 다운로드</div>
+                        </a>
+                        <a href="javascript:;"
+                            class="openModal flex w-full gap-3 down_btn items-center justify-center mt-3 text-md border border-white bg-trans text-white">
+                            <img src="/src/images/app_store.svg" alt="">
+                            <div>App Store 다운로드</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <img src="/src/images/app_bg.png" alt="">
+        </section>
+
+        <section class="content_wrap py70">
+            <div class="px_20">
+                <h2 class="text-2xl" data-aos="fade-right"> <span
+                        class="font-bold color-primary">KODARI</span>를<br />시작해보세요!</h2>
+                <div class="text-sm mt-5" data-aos="fade-right">
+                    오늘의 동선, 데일리 증상 등록, 동선 내보내기 등<br />
+                    감염병에 대한 정보 기록 및 관리를 위한 다양한<br />
+                    기능을 제공합니다.<br /><br />
+
+                    또한 등록하신 검사, 백신 접종 현황 등을 한 눈에<br />
+                    확인하실 수 있습니다.
+                </div>
+                <div class="mock_img flex justify-center" data-aos="zoom-out-up">
+                    <img src="/src/images/mockup_img02.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="content_wrap pt70 bg-white">
+            <div class="px_20">
+                <h2 class="text-2xl" data-aos="fade-right"> <span class="font-bold">건강 정보</span>를 <br />
+                    <span class="font-bold">매일 기록</span>해보세요!
+                </h2>
+                <div class="text-sm mt-5" data-aos="fade-right">
+                    하루 한 번, 자신의 건강 정보를 등록하여<br />
+                    건강을 관리할 수 있습니다.<br /><br />
+
+                    KODARI와 함께 다양한 증상 정보들을<br />
+                    살펴보고 자신의 건강 상태를 기록해보세요.
+                </div>
+                <div class="mock_img02 flex justify-center" data-aos="zoom-in-up">
+                    <img src="/src/images/mockup_img03.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="content_wrap py70 bg-bgray">
+            <div class="px_20">
+                <h2 class="text-2xl" data-aos="fade-right"> <span class="font-bold">예방접종</span>은 <br />
+                    하셨나요?
+                </h2>
+                <div class="text-sm mt-5" data-aos="fade-right">
+                    당신이 기록한 방문 장소, 데일리 건강정보,<br />
+                    출입국 기록 등을 내보내기할 수 있어요.<br /><br />
+
+                    감염병 진단으로 공유가 필요할 때 이용해 보세요!
+                </div>
+                <div class="mock_img flex justify-center" data-aos="zoom-in">
+                    <img src="/src/images/mockup_img04.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="content_wrap" data-aos="zoom-in-up">
+            <div class="main_con">
+                <div class="text-center text-white text-xl mt-8">
+                    <h2>스스로 시작하는 감염병 관리,<br />지금 <span class="font-bold text-26">KODARI</span>와 함께하세요!</h2>
+                </div>
+                <div class="mock_img03 flex justify-center">
+                    <img src="/src/images/mockup_img05.png" alt="">
+                </div>
+                <div class="main_button_area">
+                    <div class="px_20 button_ani">
+                        <a href="https://play.google.com/store/apps/details?id=com.kodari.codeidea" target="_blank"
+                            class="flex w-full gap-3 down_btn items-center justify-center text-md border border-white bg-trans text-white">
+                            <img src="/src/images/play_store.svg" alt="">
+                            <div>Play Store 다운로드</div>
+                        </a>
+                        <a href="javascript:;"
+                            class="openModal flex w-full gap-3 down_btn items-center justify-center mt-3 text-md border border-white bg-trans text-white">
+                            <img src="/src/images/app_store.svg" alt="">
+                            <div>App Store 다운로드</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <img src="/src/images/app_bg02.png" alt="">
+        </section>
+        <!--E: content -->
+
+        <section>
+            <div class="swiper-container02 relative" data-aos="fade-left">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="https://www.dankook.ac.kr/web/kor" target="_blank">
+                            <img src="/src/images/lol_dku_logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://ipdku.com/" target="_blank">
+                            <img src="/src/images/lol_health_logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://www.nrf.re.kr/index" target="_blank">
+                            <img src="/src/images/lol_nrf_logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://www.uq.edu.au/" target="_blank">
+                            <img src="/src/images/lol_queens_logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py38 bg-dark">
+            <div class="px_20">
+                <div class="flex gap-8 items-center">
+                    <a href="javascript:;"><img src="/src/images/ic_instar.svg" alt="인스타"></a>
+                    <a href="javascript:;"><img src="/src/images/ic_blog.svg" alt="네이버_블로그"></a>
+                    <a href="/contact_us.html"><img src="/src/images/ic_marker.svg" alt="찾아오시는 길"></a>
+                </div>
+                <div class="text_xs color-dark pt36">
+                    이 프로젝트는 2020년도 정부(교육부)의 재원으로<br />
+                    한국연구재단의 지원을 받아 수행된 기초연구사업입니다<br />
+                    (NRF-2020R1I1A1A01072400)<br /><br />
+
+                    KODARI 대표 email | official.kodari@gmail.com<br /><br />
+
+                    충청남도 천안시 동남구 단대로 119<br />
+                    (안서동, 단국대학교천안캠퍼스)
+                </div>
+                <div class="copy color-dark mt-6">
+                    ©2020 DANKOOK UNIVERSITY,<br />
+                    All rights reserved.
+                </div>
+            </div>
+        </footer>
+        <div class="b_nav">
+            <div class="px_30">
+                <div class="py1216 flex justify-between">
+                    <a href="/" class="flex flex-col items-center">
+                        <img src="/src/images/ic_Home_color.svg" alt="">
+                        <span class="color-primary text-xxs">Home</span>
+                    </a>
+                    <a href="/intro.html" class="flex flex-col items-center">
+                        <img src="/src/images/ic_Research.svg" alt="">
+                        <span class="text-xxs">Research</span>
+                    </a>
+                    <a href="/product.html" class="flex flex-col items-center">
+                        <img src="/src/images/ic_Product.svg" alt="">
+                        <span class="text-xxs">Product</span>
+                    </a>
+                    <a href="/lab_intro.html" class="flex flex-col items-center">
+                        <img src="/src/images/ic_Lab.svg" alt="">
+                        <span class="text-xxs">Lab</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- 모달 -->
+    <div class="modalContainer">
+        <div class="modalContent">
+            <p class="text-center p-5">앱스토어 앱 출시 준비 중입니다.</p>
+            <button class="closeModal p-3 mt-5 bg-primary text-white w-full rounded-md text-sm">닫기</button>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="/src/js/common.js"></script>
+    <script>
+        // nav 스크롤
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() == 0) {
+                $(".scroll_nav img").attr("src", "/src/images/kodari_logo_white.svg");
+                $(".scroll_nav button img").attr("src", "/src/images/ham_btn.svg");
+                $(".scroll_nav").css("background-color", "transparent");
+            } else {
+                $(".scroll_nav img").attr("src", "/src/images/kodari_logo_color.svg");
+                $(".scroll_nav button img").attr("src", "/src/images/ham_btn_color.svg");
+                $(".scroll_nav").css("background-color", "#fff");
+            }
+        });
+    </script>
+</body>
+
+</html>

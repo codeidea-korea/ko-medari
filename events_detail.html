@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/tailwind.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <title>kodari</title>
+</head>
+
+<body>
+    <div class="wrap mx-auto">
+
+        <!-- nav -->
+        <nav class="nav fixed scroll_nav">
+            <div class="flex items-center">
+                <a href="/">
+                    <img src="/src/images/kodari_logo_color.svg" alt="">
+                </a>
+                <button class="menu ml-auto">
+                    <img src="/src/images/ham_btn_color.svg" alt="">
+                </button>
+            </div>
+        </nav>
+
+
+
+        <!-- menu_open -->
+        <div class="menu_open">
+            <div class="nav flex">
+                <img src="/src/images/kodari_logo_color.svg" alt="">
+                <button class="close ml-auto">
+                    <img src="/src/images/ic_X.svg" alt="">
+                </button>
+            </div>
+
+            <div class="menu_list px_20 mt30">
+                <a href="/">HOME</a>
+                <a href="javascript:;" class="list active on">
+                    RESEARCH
+                    <img class="ml-auto arrow" src="/src/images/ic_low_arrow.svg" alt="">
+                </a>
+                <div class="list_open flex flex-col show">
+                    <a href="/intro.html">PROJECT Intro</a>
+                    <a href="/about_app.html">ABOUT APP</a>
+                    <a href="/news.html">NEWS</a>
+                    <a href="/events.html" class="active">EVENTS</a>
+                </div>
+                <a href="/product.html">
+                    PRODUCT
+                </a>
+                <a href="javascript:;" class="list">
+                    LAB
+                    <img class="ml-auto arrow" src="/src/images/ic_low_arrow.svg" alt="">
+                </a>
+                <div class="list_open flex flex-col">
+                    <a href="/lab_intro.html">LAB Intro</a>
+                    <a href="/contact_us.html">Contact us</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--S: content -->
+
+        <!-- 탭 -->
+        <div class="tab flex w-full justify-between px_20 gap-2">
+            <a href="/intro.html">Intro</a>
+            <a href="/about_app.html">About APP</a>
+            <a href="/news.html">News</a>
+            <a href="/events.html" class="active">Events</a>
+        </div>
+
+        <section class="content_wrap pt-5" data-aos="fade-up">
+            <div class="px_20">
+                <div class="flex items-center">
+                    <h2 class="font-bold text-2xl" data-aos="fade-up">Events</h2>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5" data-aos="fade-up">
+            <div class="px_20">
+                <div class="bg-white p-5 rounded-xl bg-shadow">
+                    <h2 class="text-md font-bold">코다리 앱 정식 출시 이벤트, 선착순 100명 추첨</h2>
+                    <div class="text-xs p-3 mt-3 border-t text-right text-gray-400">YYYY. MM. DD</div>
+
+                    <div class="mt-5">
+                        <img src="/src/images/kodari_img01.png" alt="">
+                        <div class="mt-3 text-sm">
+                            <p>
+                                코다리 앱이 구글 플레이스토어에 정식 등록되었습니다. 정식 버전으로 업데이트 해보세요.
+                            </p>
+                            <br/>
+                            <p>
+                                URL : http://여기입니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="mt-3 button_ani pb-10">
+            <div class="px_20">
+                <a href="/events.html"
+                    class="flex w-full gap-3 bg-primary text-white items-center justify-center text-sm p-3 rounded-md">
+                    <div>목록</div>
+                </a>
+            </div>
+        </div>
+        <!--E: content -->
+
+        <section>
+            <div class="swiper-container02 relative" data-aos="fade-left">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="https://www.dankook.ac.kr/web/kor" target="_blank">
+                            <img src="/src/images/lol_dku_logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://ipdku.com/" target="_blank">
+                            <img src="/src/images/lol_health_logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://www.nrf.re.kr/index" target="_blank">
+                            <img src="/src/images/lol_nrf_logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://www.uq.edu.au/" target="_blank">
+                            <img src="/src/images/lol_queens_logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <footer class="py38 bg-dark">
+            <div class="px_20">
+                <div class="flex gap-8 items-center">
+                    <a href="javascript:;"><img src="/src/images/ic_instar.svg" alt="인스타"></a>
+                    <a href="javascript:;"><img src="/src/images/ic_blog.svg" alt="네이버_블로그"></a>
+                    <a href="/contact_us.html"><img src="/src/images/ic_marker.svg" alt="찾아오시는 길"></a>
+                </div>
+                <div class="text_xs color-dark pt36">
+                    이 프로젝트는 2020년도 정부(교육부)의 재원으로<br />
+                    한국연구재단의 지원을 받아 수행된 기초연구사업입니다<br />
+                    (NRF-2020R1I1A1A01072400)<br /><br />
+
+                    KODARI 대표 email | official.kodari@gmail.com<br /><br />
+
+                    충청남도 천안시 동남구 단대로 119<br />
+                    (안서동, 단국대학교천안캠퍼스)
+                </div>
+                <div class="copy color-dark mt-6">
+                    ©2020 DANKOOK UNIVERSITY,<br />
+                    All rights reserved.
+                </div>
+            </div>
+        </footer>
+        <div class="b_nav">
+            <div class="px_30">
+                <div class="py1216 flex justify-between">
+                    <a href="/" class="flex flex-col items-center">
+                        <img src="/src/images/ic_Home.svg" alt="">
+                        <span class="text-xxs">Home</span>
+                    </a>
+                    <a href="/intro.html" class="flex flex-col items-center">
+                        <img src="/src/images/ic_Research_color.svg" alt="">
+                        <span class="color-primary text-xxs">Research</span>
+                    </a>
+                    <a href="/product.html" class="flex flex-col items-center">
+                        <img src="/src/images/ic_Product.svg" alt="">
+                        <span class="text-xxs">Product</span>
+                    </a>
+                    <a href="/lab_intro.html" class="flex flex-col items-center">
+                        <img src="/src/images/ic_Lab.svg" alt="">
+                        <span class="text-xxs">Lab</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="/src/js/common.js"></script>
+</body>
+
+</html>
