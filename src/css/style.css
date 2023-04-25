@@ -441,7 +441,9 @@ body {
 
 @media (max-width: 1024px){
   .all_wrap{
-    max-width:500px;
+    width:100%;
+    max-width:100%;
+    display:inherit;
   }
   .side-wrap{
     display: none;
