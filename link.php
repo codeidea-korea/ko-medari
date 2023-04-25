@@ -53,7 +53,7 @@ echo txtRecord('./@record/');
 <div id="publishingContainer">
 
 	<ul class="page-link" style="width:100%;margin-bottom:-50px">
-		<li class=""><a href="index.html" target="_blank" class="add">메인페이지</a></li>
+		<li class=""><a href="index.html" target="_blank" class="add">코다리 메인페이지</a></li>
 		<li class="mt50" data-label="RESEARCH">
 			<ul>
 				<li><a href="intro.html" target="_blank" class="">PROJECT Intro</a></li>

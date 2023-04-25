@@ -14,422 +14,464 @@
 </head>
 
 <body>
-    <div class="wrap mx-auto">
-
-        <!-- nav -->
-        <nav class="nav fixed scroll_nav">
-            <div class="flex items-center">
-                <a href="index.html">
-                    <img src="src/images/kodari_logo_color.svg" alt="">
-                </a>
-                <button class="menu ml-auto">
-                    <img src="src/images/ham_btn_color.svg" alt="">
-                </button>
+    <div class="all_wrap flex">
+        <div class="side-wrap p-5">
+            <img style="width:180px" src="src/images/kodari_logo_color.svg" alt="" data-aos="fade-up">
+            <img style="width:250px" class="mt-4" src="src/images/pc_text.svg" alt="" data-aos="fade-up">
+            <p class="text-xl font-black mt-5" data-aos="fade-up">감염병을 스스로 관리하고 싶으신가요?<br />
+                지금 바로 APP을 다운로드 하고 시작해보세요!</p>
+            <p class="text-md mt-5" data-aos="fade-up">
+                KODARI는 스스로 감염병과 건강 정보를 관리하고 싶은<br /> 분들을 위해 제작된 모바일 앱 서비스입니다.<br />
+                스마트폰으로 아래 QR코드를 촬영하여 코다리, 코다리 앱을<br /> 다운로드 받아 연구에 참여해보세요!
+            </p>
+            <div class="mt-3 p-3 bg-white w-28 rounded-xl" data-aos="fade-up">
+                <img class="rounded-md" style="width:100px;" src="src/images/ko_qr.svg" alt="">
             </div>
-        </nav>
-
-
-
-        <!-- menu_open -->
-        <div class="menu_open">
-            <div class="nav flex">
-                <img src="src/images/kodari_logo_color.svg" alt="">
-                <button class="close ml-auto">
-                    <img src="src/images/ic_X.svg" alt="">
-                </button>
-            </div>
-
-            <div class="menu_list px_20 mt30">
-                <a href="index.html">HOME</a>
-                <a href="javascript:;" class="list">
-                    RESEARCH
-                    <img class="ml-auto arrow" src="src/images/ic_low_arrow.svg" alt="">
+            <div class="button_ani mt-3" data-aos="fade-up">
+                <a href="https://play.google.com/store/apps/details?id=com.kodari.codeidea" target="_blank"
+                    class="flex w-full gap-3 down_btn bg-white items-center justify-center text-md">
+                    <img src="src/images/play_store.svg" alt="">
+                    <div>Play Store 다운로드</div>
                 </a>
-                <div class="list_open flex flex-col">
-                    <a href="intro.html">PROJECT Intro</a>
-                    <a href="about_app.html">ABOUT APP</a>
-                    <a href="news.html">NEWS</a>
-                    <a href="events.html">EVENTS</a>
+                <a href="javascript:;"
+                    class="openModal flex w-full gap-3 down_btn bg-white items-center justify-center mt-3 text-md">
+                    <img src="src/images/app_store.svg" alt="">
+                    <div>App Store 다운로드</div>
+                </a>
+            </div>
+            <div class="text-sm mt-3" data-aos="fade-up">
+                ※ 현재 안드로이드 버전만 제공되고 있으며, APK를 다운로드 받아 직접 설치만 가능합니다.<br />
+                ※ 추후 플레이스토어 및 iOS 앱스토어에서 제공될 예정입니다.
+            </div>
+        </div>
+        <div class="ml-auto">
+
+            <div class="wrap">
+
+                <!-- nav -->
+                <nav class="nav fixed scroll_nav">
+                    <div class="flex items-center">
+                        <a href="index.html">
+                            <img src="src/images/kodari_logo_color.svg" alt="">
+                        </a>
+                        <button class="menu ml-auto">
+                            <img src="src/images/ham_btn_color.svg" alt="">
+                        </button>
+                    </div>
+                </nav>
+
+
+
+                <!-- menu_open -->
+                <div class="menu_open">
+                    <div class="nav flex">
+                        <img src="src/images/kodari_logo_color.svg" alt="">
+                        <button class="close ml-auto">
+                            <img src="src/images/ic_X.svg" alt="">
+                        </button>
+                    </div>
+
+                    <div class="menu_list px_20 mt30">
+                        <a href="index.html">HOME</a>
+                        <a href="javascript:;" class="list">
+                            RESEARCH
+                            <img class="ml-auto arrow" src="src/images/ic_low_arrow.svg" alt="">
+                        </a>
+                        <div class="list_open flex flex-col">
+                            <a href="intro.html">PROJECT Intro</a>
+                            <a href="about_app.html">ABOUT APP</a>
+                            <a href="news.html">NEWS</a>
+                            <a href="events.html">EVENTS</a>
+                        </div>
+                        <a href="product.html">
+                            PRODUCT
+                        </a>
+                        <a href="javascript:;" class="list active on">
+                            LAB
+                            <img class="ml-auto arrow" src="src/images/ic_low_arrow.svg" alt="">
+                        </a>
+                        <div class="list_open flex flex-col show">
+                            <a href="lab_intro.html" class="active">LAB Intro</a>
+                            <a href="contact_us.html">Contact us</a>
+                        </div>
+                    </div>
                 </div>
-                <a href="product.html">
-                    PRODUCT
-                </a>
-                <a href="javascript:;" class="list active on">
-                    LAB
-                    <img class="ml-auto arrow" src="src/images/ic_low_arrow.svg" alt="">
-                </a>
-                <div class="list_open flex flex-col show">
+
+
+
+                <!--S: content -->
+
+                <!-- 탭 -->
+                <div class="tab flex w-full justify-between px_20 gap-2">
                     <a href="lab_intro.html" class="active">LAB Intro</a>
-                    <a href="contact_us.html">Contact us</a>
+                    <a href="contact_us.html">CONTACT us</a>
                 </div>
-            </div>
-        </div>
 
-
-
-        <!--S: content -->
-
-        <!-- 탭 -->
-        <div class="tab flex w-full justify-between px_20 gap-2">
-            <a href="lab_intro.html" class="active">LAB Intro</a>
-            <a href="contact_us.html">CONTACT us</a>
-        </div>
-
-        <section class="content_wrap pt-5" data-aos="fade-up">
-            <div class="px_20">
-                <div class="flex items-center">
-                    <h2 class="font-bold text-2xl" data-aos="fade-up">의료정보학 연구실</h2>
-                </div>
-                <div class="sub_border_l mt-5">
-                    Members
-                </div>
-            </div>
-        </section>
-        <section class="pt-3 pb-10">
-            <div class="px_20">
-                <div class="bg-white p-5 rounded-xl bg-shadow" data-aos="fade-up">
-                    <div data-aos="fade-up">
-                        <div class="w-48 overflow-hidden rounded-2xl">
-                            <img src="src/images/img_p_01.png" alt="">
+                <section class="content_wrap pt-5" data-aos="fade-up">
+                    <div class="px_20">
+                        <div class="flex items-center">
+                            <h2 class="font-bold text-2xl" data-aos="fade-up">의료정보학 연구실</h2>
                         </div>
-                        <div class="mt-3">
-                            <div class="list_dot02">
-                                <div class="mt-1">
-                                    Group Leader
+                        <div class="sub_border_l mt-5">
+                            Members
+                        </div>
+                    </div>
+                </section>
+                <section class="pt-3 pb-10">
+                    <div class="px_20">
+                        <div class="bg-white p-5 rounded-xl bg-shadow" data-aos="fade-up">
+                            <div data-aos="fade-up">
+                                <div class="w-48 overflow-hidden rounded-2xl">
+                                    <img src="src/images/img_p_01.png" alt="">
                                 </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>RHO, MIJUNG</h2>
+                                <div class="mt-3">
+                                    <div class="list_dot02">
+                                        <div class="mt-1">
+                                            Group Leader
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>RHO, MIJUNG</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="list_dot02 mt-4">
+                                        <div class="mt-1">
+                                            Affiliation
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>College of Health Science, Dankook University</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="list_dot02 mt-4">
+                                        <div class="mt-1">
+                                            Email
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>rhomijung@dankook.ac.kr</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="list_dot02 mt-4">
+                                        <div class="mt-1">
+                                            Room
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>614, Health and Nursing Hall</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="list_dot02 mt-4">
+                                        <div class="mt-1">
+                                            Phone
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>+82 41-550-1474</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="list_dot02 mt-4">
+                                        <div class="mt-1">
+                                            Research Interests
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>Digital healthcare, Digital therapeutics</h2>
+                                            <h2 class="mt-2">Artificial intelligence, data mining</h2>
+                                            <h2 class="mt-2">Data warehouse</h2>
+                                            <h2 class="mt-2">Common Data Model (CDM), Distributed, Research Network
+                                                (DRN)</h2>
+                                            <h2 class="mt-2">Research methodology, medical statistics</h2>
+                                            <h2 class="mt-2">Clinical research based on healthcare big data platform
+                                            </h2>
+                                            <h2 class="mt-2">Blockchain</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center mt-4 button_ani">
+                                    <a href="https://scholar.google.co.kr/citations?hl=ko&user=S3fg2SYAAAAJ"
+                                        target="_blank"
+                                        class="flex w-full gap-1 rounded-md p-3 bg-primary items-center justify-center text-sm text-white">
+                                        <div>Google scholar</div>
+                                    </a>
                                 </div>
                             </div>
 
-                            <div class="list_dot02 mt-4">
-                                <div class="mt-1">
-                                    Affiliation
+                            <div data-aos="fade-up" class="border-t pt-8 mt-8">
+                                <div class="w-48 overflow-hidden rounded-2xl">
+                                    <img src="src/images/img_p_02.png" alt="">
                                 </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>College of Health Science, Dankook University</h2>
-                                </div>
-                            </div>
+                                <div class="mt-3">
+                                    <div class="list_dot02">
+                                        <div class="mt-1">
+                                            Co-researcher
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>Jihwan Park</h2>
+                                        </div>
+                                    </div>
 
-                            <div class="list_dot02 mt-4">
-                                <div class="mt-1">
-                                    Email
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>rhomijung@dankook.ac.kr</h2>
-                                </div>
-                            </div>
+                                    <div class="list_dot02 mt-4">
+                                        <div class="mt-1">
+                                            Affiliation
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>Department of computer education, Liberal art college, Dankook
+                                                university</h2>
+                                        </div>
+                                    </div>
 
-                            <div class="list_dot02 mt-4">
-                                <div class="mt-1">
-                                    Room
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>614, Health and Nursing Hall</h2>
-                                </div>
-                            </div>
+                                    <div class="list_dot02 mt-4">
+                                        <div class="mt-1">
+                                            Email
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>jihwanpark@dankook.ac.kr</h2>
+                                        </div>
+                                    </div>
 
-                            <div class="list_dot02 mt-4">
-                                <div class="mt-1">
-                                    Phone
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>+82 41-550-1474</h2>
-                                </div>
-                            </div>
+                                    <div class="list_dot02 mt-4">
+                                        <div class="mt-1">
+                                            Room
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>143, Economics and Commerce Hall</h2>
+                                        </div>
+                                    </div>
 
-                            <div class="list_dot02 mt-4">
-                                <div class="mt-1">
-                                    Research Interests
+                                    <div class="list_dot02 mt-4">
+                                        <div class="mt-1">
+                                            Phone
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>+82 41-550-1391</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="list_dot02 mt-4">
+                                        <div class="mt-1">
+                                            Research Interests
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>Medical Artificial Intelligence</h2>
+                                            <h2 class="mt-2">Clinical Decision Support Systems(CDSS)</h2>
+                                            <h2 class="mt-2">Common Data Modeling (CDM)</h2>
+                                            <h2 class="mt-2">Distributed Research Networks (DRNs)</h2>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>Digital healthcare, Digital therapeutics</h2>
-                                    <h2 class="mt-2">Artificial intelligence, data mining</h2>
-                                    <h2 class="mt-2">Data warehouse</h2>
-                                    <h2 class="mt-2">Common Data Model (CDM), Distributed, Research Network (DRN)</h2>
-                                    <h2 class="mt-2">Research methodology, medical statistics</h2>
-                                    <h2 class="mt-2">Clinical research based on healthcare big data platform</h2>
-                                    <h2 class="mt-2">Blockchain</h2>
+                                <div class="flex items-center mt-4 button_ani">
+                                    <a href="https://scholar.google.co.kr/citations?user=D3ovOtAAAAAJ" target="_blank"
+                                        class="flex w-full gap-1 rounded-md p-3 bg-primary items-center justify-center text-sm text-white">
+                                        <div>Google scholar</div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="flex items-center mt-4 button_ani">
-                            <a href="https://scholar.google.co.kr/citations?hl=ko&user=S3fg2SYAAAAJ" target="_blank"
-                                class="flex w-full gap-1 rounded-md p-3 bg-primary items-center justify-center text-sm text-white">
-                                <div>Google scholar</div>
+
+                        <div class="bg-white p-5 rounded-xl bg-shadow mt-6" data-aos="fade-up">
+                            <div data-aos="fade-up">
+                                <div class="w-48 overflow-hidden rounded-2xl">
+                                    <img src="src/images/img_p_03.png" alt="">
+                                </div>
+                                <div class="mt-3">
+                                    <div class="list_dot02">
+                                        <div class="mt-1">
+                                            M.S Students
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>Sihyun Song</h2>
+                                            <div class="pl-4">
+                                                Department of Health Administration, Graduate School of Health and
+                                                Welfare, Dankook University
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list_dot02 mt-4">
+                                        <div class="mt-1">
+                                            Email
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>songsh17@dankook.ac.kr</h2>
+                                        </div>
+                                    </div>
+                                    <div class="list_dot02 mt-4">
+                                        <div class="mt-1">
+                                            Research Interests
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>Digital healthcare</h2>
+                                            <h2 class="mt-2">Common Data Model(CDM)</h2>
+                                            <h2 class="mt-2">Health informatics</h2>
+                                            <h2 class="mt-2">Research methodology, Medical statistics</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-aos="fade-up" class="border-t pt-8 mt-8">
+                                <div class="w-48 overflow-hidden rounded-2xl">
+                                    <img src="src/images/img_p_04.png" alt="">
+                                </div>
+                                <div class="mt-3">
+                                    <div class="list_dot02">
+                                        <div class="mt-1">
+                                            Undergraduates
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>Yujin Park</h2>
+                                            <div class="pl-4">
+                                                Department of Health Administration, College of Health Science, Dankook
+                                                University
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list_dot02 mt-4">
+                                        <div class="mt-1">
+                                            Email
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>kitty7803@naver.com</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-aos="fade-up" class="border-t pt-8 mt-8">
+                                <div class="w-48 overflow-hidden rounded-2xl">
+                                    <img src="src/images/img_p_05.png" alt="">
+                                </div>
+                                <div class="mt-3">
+                                    <div class="list_dot02">
+                                        <div class="mt-1">
+                                            Undergraduates
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>Park se hyun</h2>
+                                            <div class="pl-4">
+                                                Department of Health Administration, College of Health Science, Dankook
+                                                University
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list_dot02 mt-4">
+                                        <div class="mt-1">
+                                            Email
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>sh010606@naver.com</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-aos="fade-up" class="border-t pt-8 mt-8">
+                                <div class="w-48 overflow-hidden rounded-2xl">
+                                    <img src="src/images/img_p_06.png" alt="">
+                                </div>
+                                <div class="mt-3">
+                                    <div class="list_dot02">
+                                        <div class="mt-1">
+                                            Undergraduates
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>Yerin Kim</h2>
+                                            <div class="pl-4">
+                                                Department of Korean Language and Literature, The Anyang University of
+                                                Korea
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="list_dot02 mt-4">
+                                        <div class="mt-1">
+                                            Email
+                                        </div>
+                                        <div class="p-2 bg-gray-50 rounded-md">
+                                            <h2>kyr1367@naver.com</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <!--E: content -->
+
+                <section>
+                    <div class="swiper-container02 relative" data-aos="fade-left">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="https://www.dankook.ac.kr/web/kor" target="_blank">
+                                    <img src="src/images/lol_dku_logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://ipdku.com/" target="_blank">
+                                    <img src="src/images/lol_health_logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.nrf.re.kr/index" target="_blank">
+                                    <img src="src/images/lol_nrf_logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.uq.edu.au/" target="_blank">
+                                    <img src="src/images/lol_queens_logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="py38 bg-dark">
+                    <div class="px_20">
+                        <div class="flex gap-8 items-center">
+                            <a href="javascript:;"><img src="src/images/ic_instar.svg" alt="인스타"></a>
+                            <a href="javascript:;"><img src="src/images/ic_blog.svg" alt="네이버_블로그"></a>
+                            <a href="contact_us.html"><img src="src/images/ic_marker.svg" alt="찾아오시는 길"></a>
+                        </div>
+                        <div class="text_xs color-dark pt36">
+                            이 프로젝트는 2020년도 정부(교육부)의 재원으로<br />
+                            한국연구재단의 지원을 받아 수행된 기초연구사업입니다<br />
+                            (NRF-2020R1I1A1A01072400)<br /><br />
+
+                            KODARI 대표 email | official.kodari@gmail.com<br /><br />
+
+                            충청남도 천안시 동남구 단대로 119<br />
+                            (안서동, 단국대학교천안캠퍼스)
+                        </div>
+                        <div class="copy color-dark mt-6">
+                            ©2020 DANKOOK UNIVERSITY,<br />
+                            All rights reserved.
+                        </div>
+                    </div>
+                </footer>
+                <div class="b_nav">
+                    <div class="px_30">
+                        <div class="py1216 flex justify-between">
+                            <a href="index.html" class="flex flex-col items-center">
+                                <img src="src/images/ic_Home.svg" alt="">
+                                <span class="text-xxs">Home</span>
+                            </a>
+                            <a href="intro.html" class="flex flex-col items-center">
+                                <img src="src/images/ic_Research.svg" alt="">
+                                <span class="text-xxs">Research</span>
+                            </a>
+                            <a href="product.html" class="flex flex-col items-center">
+                                <img src="src/images/ic_Product.svg" alt="">
+                                <span class="text-xxs">Product</span>
+                            </a>
+                            <a href="lab_intro.html" class="flex flex-col items-center">
+                                <img src="src/images/ic_Lab_color.svg" alt="">
+                                <span class="color-primary text-xxs">Lab</span>
                             </a>
                         </div>
                     </div>
-
-                    <div data-aos="fade-up" class="border-t pt-8 mt-8">
-                        <div class="w-48 overflow-hidden rounded-2xl">
-                            <img src="src/images/img_p_02.png" alt="">
-                        </div>
-                        <div class="mt-3">
-                            <div class="list_dot02">
-                                <div class="mt-1">
-                                    Co-researcher
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>Jihwan Park</h2>
-                                </div>
-                            </div>
-
-                            <div class="list_dot02 mt-4">
-                                <div class="mt-1">
-                                    Affiliation
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>Department of computer education, Liberal art college, Dankook university</h2>
-                                </div>
-                            </div>
-
-                            <div class="list_dot02 mt-4">
-                                <div class="mt-1">
-                                    Email
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>jihwanpark@dankook.ac.kr</h2>
-                                </div>
-                            </div>
-
-                            <div class="list_dot02 mt-4">
-                                <div class="mt-1">
-                                    Room
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>143, Economics and Commerce Hall</h2>
-                                </div>
-                            </div>
-
-                            <div class="list_dot02 mt-4">
-                                <div class="mt-1">
-                                    Phone
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>+82 41-550-1391</h2>
-                                </div>
-                            </div>
-
-                            <div class="list_dot02 mt-4">
-                                <div class="mt-1">
-                                    Research Interests
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>Medical Artificial Intelligence</h2>
-                                    <h2 class="mt-2">Clinical Decision Support Systems(CDSS)</h2>
-                                    <h2 class="mt-2">Common Data Modeling (CDM)</h2>
-                                    <h2 class="mt-2">Distributed Research Networks (DRNs)</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex items-center mt-4 button_ani">
-                            <a href="https://scholar.google.co.kr/citations?user=D3ovOtAAAAAJ" target="_blank"
-                                class="flex w-full gap-1 rounded-md p-3 bg-primary items-center justify-center text-sm text-white">
-                                <div>Google scholar</div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white p-5 rounded-xl bg-shadow mt-6" data-aos="fade-up">
-                    <div data-aos="fade-up">
-                        <div class="w-48 overflow-hidden rounded-2xl">
-                            <img src="src/images/img_p_03.png" alt="">
-                        </div>
-                        <div class="mt-3">
-                            <div class="list_dot02">
-                                <div class="mt-1">
-                                    M.S Students
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>Sihyun Song</h2>
-                                    <div class="pl-4">
-                                        Department of Health Administration, Graduate School of Health and Welfare, Dankook University
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="list_dot02 mt-4">
-                                <div class="mt-1">
-                                    Email
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>songsh17@dankook.ac.kr</h2>
-                                </div>
-                            </div>
-                            <div class="list_dot02 mt-4">
-                                <div class="mt-1">
-                                    Research Interests
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>Digital healthcare</h2>
-                                    <h2 class="mt-2">Common Data Model(CDM)</h2>
-                                    <h2 class="mt-2">Health informatics</h2>
-                                    <h2 class="mt-2">Research methodology, Medical statistics</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div data-aos="fade-up" class="border-t pt-8 mt-8">
-                        <div class="w-48 overflow-hidden rounded-2xl">
-                            <img src="src/images/img_p_04.png" alt="">
-                        </div>
-                        <div class="mt-3">
-                            <div class="list_dot02">
-                                <div class="mt-1">
-                                    Undergraduates
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>Yujin Park</h2>
-                                    <div class="pl-4">
-                                        Department of Health Administration, College of Health Science, Dankook University
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="list_dot02 mt-4">
-                                <div class="mt-1">
-                                    Email
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>kitty7803@naver.com</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div data-aos="fade-up" class="border-t pt-8 mt-8">
-                        <div class="w-48 overflow-hidden rounded-2xl">
-                            <img src="src/images/img_p_05.png" alt="">
-                        </div>
-                        <div class="mt-3">
-                            <div class="list_dot02">
-                                <div class="mt-1">
-                                    Undergraduates
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>Park se hyun</h2>
-                                    <div class="pl-4">
-                                        Department of Health Administration, College of Health Science, Dankook University
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="list_dot02 mt-4">
-                                <div class="mt-1">
-                                    Email
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>sh010606@naver.com</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div data-aos="fade-up" class="border-t pt-8 mt-8">
-                        <div class="w-48 overflow-hidden rounded-2xl">
-                            <img src="src/images/img_p_06.png" alt="">
-                        </div>
-                        <div class="mt-3">
-                            <div class="list_dot02">
-                                <div class="mt-1">
-                                    Undergraduates
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>Yerin Kim</h2>
-                                    <div class="pl-4">
-                                        Department of Korean Language and Literature, The Anyang University of Korea
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="list_dot02 mt-4">
-                                <div class="mt-1">
-                                    Email
-                                </div>
-                                <div class="p-2 bg-gray-50 rounded-md">
-                                    <h2>kyr1367@naver.com</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-        <!--E: content -->
-
-        <section>
-            <div class="swiper-container02 relative" data-aos="fade-left">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <a href="https://www.dankook.ac.kr/web/kor" target="_blank">
-                            <img src="src/images/lol_dku_logo.png" alt="">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://ipdku.com/" target="_blank">
-                            <img src="src/images/lol_health_logo.png" alt="">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://www.nrf.re.kr/index" target="_blank">
-                            <img src="src/images/lol_nrf_logo.png" alt="">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://www.uq.edu.au/" target="_blank">
-                            <img src="src/images/lol_queens_logo.png" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer class="py38 bg-dark">
-            <div class="px_20">
-                <div class="flex gap-8 items-center">
-                    <a href="javascript:;"><img src="src/images/ic_instar.svg" alt="인스타"></a>
-                    <a href="javascript:;"><img src="src/images/ic_blog.svg" alt="네이버_블로그"></a>
-                    <a href="contact_us.html"><img src="src/images/ic_marker.svg" alt="찾아오시는 길"></a>
-                </div>
-                <div class="text_xs color-dark pt36">
-                    이 프로젝트는 2020년도 정부(교육부)의 재원으로<br />
-                    한국연구재단의 지원을 받아 수행된 기초연구사업입니다<br />
-                    (NRF-2020R1I1A1A01072400)<br /><br />
-
-                    KODARI 대표 email | official.kodari@gmail.com<br /><br />
-
-                    충청남도 천안시 동남구 단대로 119<br />
-                    (안서동, 단국대학교천안캠퍼스)
-                </div>
-                <div class="copy color-dark mt-6">
-                    ©2020 DANKOOK UNIVERSITY,<br />
-                    All rights reserved.
-                </div>
-            </div>
-        </footer>
-        <div class="b_nav">
-            <div class="px_30">
-                <div class="py1216 flex justify-between">
-                    <a href="index.html" class="flex flex-col items-center">
-                        <img src="src/images/ic_Home.svg" alt="">
-                        <span class="text-xxs">Home</span>
-                    </a>
-                    <a href="intro.html" class="flex flex-col items-center">
-                        <img src="src/images/ic_Research.svg" alt="">
-                        <span class="text-xxs">Research</span>
-                    </a>
-                    <a href="product.html" class="flex flex-col items-center">
-                        <img src="src/images/ic_Product.svg" alt="">
-                        <span class="text-xxs">Product</span>
-                    </a>
-                    <a href="lab_intro.html" class="flex flex-col items-center">
-                        <img src="src/images/ic_Lab_color.svg" alt="">
-                        <span class="color-primary text-xxs">Lab</span>
-                    </a>
                 </div>
             </div>
         </div>

@@ -14,171 +14,204 @@
 </head>
 
 <body>
-    <div class="wrap mx-auto">
-
-        <!-- nav -->
-        <nav class="nav fixed scroll_nav">
-            <div class="flex items-center">
-                <a href="index.html">
-                    <img src="src/images/kodari_logo_color.svg" alt="">
-                </a>
-                <button class="menu ml-auto">
-                    <img src="src/images/ham_btn_color.svg" alt="">
-                </button>
+    <div class="all_wrap flex">
+        <div class="side-wrap p-5">
+            <img style="width:180px" src="src/images/kodari_logo_color.svg" alt="" data-aos="fade-up">
+            <img style="width:250px" class="mt-4" src="src/images/pc_text.svg" alt="" data-aos="fade-up">
+            <p class="text-xl font-black mt-5" data-aos="fade-up">감염병을 스스로 관리하고 싶으신가요?<br />
+                지금 바로 APP을 다운로드 하고 시작해보세요!</p>
+            <p class="text-md mt-5" data-aos="fade-up">
+                KODARI는 스스로 감염병과 건강 정보를 관리하고 싶은<br /> 분들을 위해 제작된 모바일 앱 서비스입니다.<br />
+                스마트폰으로 아래 QR코드를 촬영하여 코다리, 코다리 앱을<br /> 다운로드 받아 연구에 참여해보세요!
+            </p>
+            <div class="mt-3 p-3 bg-white w-28 rounded-xl" data-aos="fade-up">
+                <img class="rounded-md" style="width:100px;" src="src/images/ko_qr.svg" alt="">
             </div>
-        </nav>
-
-
-
-        <!-- menu_open -->
-        <div class="menu_open">
-            <div class="nav flex">
-                <img src="src/images/kodari_logo_color.svg" alt="">
-                <button class="close ml-auto">
-                    <img src="src/images/ic_X.svg" alt="">
-                </button>
-            </div>
-
-            <div class="menu_list px_20 mt30">
-                <a href="index.html">HOME</a>
-                <a href="javascript:;" class="list">
-                    RESEARCH
-                    <img class="ml-auto arrow" src="src/images/ic_low_arrow.svg" alt="">
+            <div class="button_ani mt-3" data-aos="fade-up">
+                <a href="https://play.google.com/store/apps/details?id=com.kodari.codeidea" target="_blank"
+                    class="flex w-full gap-3 down_btn bg-white items-center justify-center text-md">
+                    <img src="src/images/play_store.svg" alt="">
+                    <div>Play Store 다운로드</div>
                 </a>
-                <div class="list_open flex flex-col">
-                    <a href="intro.html">PROJECT Intro</a>
-                    <a href="about_app.html">ABOUT APP</a>
-                    <a href="news.html">NEWS</a>
-                    <a href="events.html">EVENTS</a>
+                <a href="javascript:;"
+                    class="openModal flex w-full gap-3 down_btn bg-white items-center justify-center mt-3 text-md">
+                    <img src="src/images/app_store.svg" alt="">
+                    <div>App Store 다운로드</div>
+                </a>
+            </div>
+            <div class="text-sm mt-3" data-aos="fade-up">
+                ※ 현재 안드로이드 버전만 제공되고 있으며, APK를 다운로드 받아 직접 설치만 가능합니다.<br />
+                ※ 추후 플레이스토어 및 iOS 앱스토어에서 제공될 예정입니다.
+            </div>
+        </div>
+        <div class="ml-auto">
+            <div class="wrap mx-auto">
+
+                <!-- nav -->
+                <nav class="nav fixed scroll_nav">
+                    <div class="flex items-center">
+                        <a href="index.html">
+                            <img src="src/images/kodari_logo_color.svg" alt="">
+                        </a>
+                        <button class="menu ml-auto">
+                            <img src="src/images/ham_btn_color.svg" alt="">
+                        </button>
+                    </div>
+                </nav>
+
+
+
+                <!-- menu_open -->
+                <div class="menu_open">
+                    <div class="nav flex">
+                        <img src="src/images/kodari_logo_color.svg" alt="">
+                        <button class="close ml-auto">
+                            <img src="src/images/ic_X.svg" alt="">
+                        </button>
+                    </div>
+
+                    <div class="menu_list px_20 mt30">
+                        <a href="index.html">HOME</a>
+                        <a href="javascript:;" class="list">
+                            RESEARCH
+                            <img class="ml-auto arrow" src="src/images/ic_low_arrow.svg" alt="">
+                        </a>
+                        <div class="list_open flex flex-col">
+                            <a href="intro.html">PROJECT Intro</a>
+                            <a href="about_app.html">ABOUT APP</a>
+                            <a href="news.html">NEWS</a>
+                            <a href="events.html">EVENTS</a>
+                        </div>
+                        <a href="/product">
+                            PRODUCT
+                        </a>
+                        <a href="javascript:;" class="list active on">
+                            LAB
+                            <img class="ml-auto arrow" src="src/images/ic_low_arrow.svg" alt="">
+                        </a>
+                        <div class="list_open flex flex-col show">
+                            <a href="lab_intro.html">LAB Intro</a>
+                            <a href="contact_us.html" class="active">Contact us</a>
+                        </div>
+                    </div>
                 </div>
-                <a href="/product">
-                    PRODUCT
-                </a>
-                <a href="javascript:;" class="list active on">
-                    LAB
-                    <img class="ml-auto arrow" src="src/images/ic_low_arrow.svg" alt="">
-                </a>
-                <div class="list_open flex flex-col show">
+
+
+
+                <!--S: content -->
+
+                <!-- 탭 -->
+                <div class="tab flex w-full justify-between px_20 gap-2">
                     <a href="lab_intro.html">LAB Intro</a>
-                    <a href="contact_us.html" class="active">Contact us</a>
+                    <a href="contact_us.html" class="active">CONTACT us</a>
                 </div>
-            </div>
-        </div>
 
-
-
-        <!--S: content -->
-
-        <!-- 탭 -->
-        <div class="tab flex w-full justify-between px_20 gap-2">
-            <a href="lab_intro.html">LAB Intro</a>
-            <a href="contact_us.html" class="active">CONTACT us</a>
-        </div>
-
-        <section class="content_wrap pt-5" data-aos="fade-up">
-            <div class="px_20">
-                <div class="flex items-center">
-                    <h2 class="font-bold text-2xl" data-aos="fade-up">Contact US</h2>
-                </div>
-            </div>
-        </section>
-        <section class="pt-3 pb-10">
-            <div class="px_20">
-                <div class="text-center sm:text-lg text-md mt-5" data-aos="fade-up">
-                    <span class="font-bold color-primary">KODARI</span>와 함께할 공동 연구 기관 및<br />
-                    다양한 의견을 받고 있습니다.
-                </div>
-                <div class="bg-white p-5 rounded-xl bg-shadow mt-6" data-aos="fade-up">
-                    <!-- 구글맵 -->
-                    <iframe class="w-full" style="height:300px"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.2108266326227!2d127.16614797633612!3d36.83742657223654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b28e0278bb7c9%3A0x466573e75930c99a!2z64uo6rWt64yA7ZWZ6rWQIOyynOyViOy6oO2NvOyKpA!5e0!3m2!1sko!2skr!4v1682398174281!5m2!1sko!2skr"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <div class="mt-4 text-sm">
-                        충청남도 천안시 동남구 단대로 119
-                        (안서동, 단국대학교천안캠퍼스)
+                <section class="content_wrap pt-5" data-aos="fade-up">
+                    <div class="px_20">
+                        <div class="flex items-center">
+                            <h2 class="font-bold text-2xl" data-aos="fade-up">Contact US</h2>
+                        </div>
                     </div>
-                </div>
-                <div class="mt-3 button_ani">
-                    <a href="mailto:" official.kodari@gmail.com"
-                        class="flex w-full gap-3 bg-primary text-white items-center justify-center text-sm p-3 rounded-md">
-                        <div>KODARI email official.kodari@gmail.com</div>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!--E: content -->
-
-
-        <section>
-            <div class="swiper-container02 relative" data-aos="fade-left">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <a href="https://www.dankook.ac.kr/web/kor" target="_blank">
-                            <img src="src/images/lol_dku_logo.png" alt="">
-                        </a>
+                </section>
+                <section class="pt-3 pb-10">
+                    <div class="px_20">
+                        <div class="text-center sm:text-lg text-md mt-5" data-aos="fade-up">
+                            <span class="font-bold color-primary">KODARI</span>와 함께할 공동 연구 기관 및<br />
+                            다양한 의견을 받고 있습니다.
+                        </div>
+                        <div class="bg-white p-5 rounded-xl bg-shadow mt-6" data-aos="fade-up">
+                            <!-- 구글맵 -->
+                            <iframe class="w-full" style="height:300px"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.2108266326227!2d127.16614797633612!3d36.83742657223654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b28e0278bb7c9%3A0x466573e75930c99a!2z64uo6rWt64yA7ZWZ6rWQIOyynOyViOy6oO2NvOyKpA!5e0!3m2!1sko!2skr!4v1682398174281!5m2!1sko!2skr"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="mt-4 text-sm">
+                                충청남도 천안시 동남구 단대로 119
+                                (안서동, 단국대학교천안캠퍼스)
+                            </div>
+                        </div>
+                        <div class="mt-3 button_ani">
+                            <a href="mailto:" official.kodari@gmail.com"
+                                class="flex w-full gap-3 bg-primary text-white items-center justify-center text-sm p-3 rounded-md">
+                                <div>KODARI email official.kodari@gmail.com</div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="swiper-slide">
-                        <a href="https://ipdku.com/" target="_blank">
-                            <img src="src/images/lol_health_logo.png" alt="">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://www.nrf.re.kr/index" target="_blank">
-                            <img src="src/images/lol_nrf_logo.png" alt="">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://www.uq.edu.au/" target="_blank">
-                            <img src="src/images/lol_queens_logo.png" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+                </section>
+                <!--E: content -->
 
-        <footer class="py38 bg-dark">
-            <div class="px_20">
-                <div class="flex gap-8 items-center">
-                    <a href="javascript:;"><img src="src/images/ic_instar.svg" alt="인스타"></a>
-                    <a href="javascript:;"><img src="src/images/ic_blog.svg" alt="네이버_블로그"></a>
-                    <a href="contact_us.html"><img src="src/images/ic_marker.svg" alt="찾아오시는 길"></a>
-                </div>
-                <div class="text_xs color-dark pt36">
-                    이 프로젝트는 2020년도 정부(교육부)의 재원으로<br />
-                    한국연구재단의 지원을 받아 수행된 기초연구사업입니다<br />
-                    (NRF-2020R1I1A1A01072400)<br /><br />
 
-                    KODARI 대표 email | official.kodari@gmail.com<br /><br />
+                <section>
+                    <div class="swiper-container02 relative" data-aos="fade-left">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="https://www.dankook.ac.kr/web/kor" target="_blank">
+                                    <img src="src/images/lol_dku_logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://ipdku.com/" target="_blank">
+                                    <img src="src/images/lol_health_logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.nrf.re.kr/index" target="_blank">
+                                    <img src="src/images/lol_nrf_logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.uq.edu.au/" target="_blank">
+                                    <img src="src/images/lol_queens_logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-                    충청남도 천안시 동남구 단대로 119<br />
-                    (안서동, 단국대학교천안캠퍼스)
-                </div>
-                <div class="copy color-dark mt-6">
-                    ©2020 DANKOOK UNIVERSITY,<br />
-                    All rights reserved.
-                </div>
-            </div>
-        </footer>
-        <div class="b_nav">
-            <div class="px_30">
-                <div class="py1216 flex justify-between">
-                    <a href="index.html" class="flex flex-col items-center">
-                        <img src="src/images/ic_Home.svg" alt="">
-                        <span class="text-xxs">Home</span>
-                    </a>
-                    <a href="intro.html" class="flex flex-col items-center">
-                        <img src="src/images/ic_Research.svg" alt="">
-                        <span class="text-xxs">Research</span>
-                    </a>
-                    <a href="product.html" class="flex flex-col items-center">
-                        <img src="src/images/ic_Product.svg" alt="">
-                        <span class="text-xxs">Product</span>
-                    </a>
-                    <a href="lab_intro.html" class="flex flex-col items-center">
-                        <img src="src/images/ic_Lab_color.svg" alt="">
-                        <span class="color-primary text-xxs">Lab</span>
-                    </a>
+                <footer class="py38 bg-dark">
+                    <div class="px_20">
+                        <div class="flex gap-8 items-center">
+                            <a href="javascript:;"><img src="src/images/ic_instar.svg" alt="인스타"></a>
+                            <a href="javascript:;"><img src="src/images/ic_blog.svg" alt="네이버_블로그"></a>
+                            <a href="contact_us.html"><img src="src/images/ic_marker.svg" alt="찾아오시는 길"></a>
+                        </div>
+                        <div class="text_xs color-dark pt36">
+                            이 프로젝트는 2020년도 정부(교육부)의 재원으로<br />
+                            한국연구재단의 지원을 받아 수행된 기초연구사업입니다<br />
+                            (NRF-2020R1I1A1A01072400)<br /><br />
+
+                            KODARI 대표 email | official.kodari@gmail.com<br /><br />
+
+                            충청남도 천안시 동남구 단대로 119<br />
+                            (안서동, 단국대학교천안캠퍼스)
+                        </div>
+                        <div class="copy color-dark mt-6">
+                            ©2020 DANKOOK UNIVERSITY,<br />
+                            All rights reserved.
+                        </div>
+                    </div>
+                </footer>
+                <div class="b_nav">
+                    <div class="px_30">
+                        <div class="py1216 flex justify-between">
+                            <a href="index.html" class="flex flex-col items-center">
+                                <img src="src/images/ic_Home.svg" alt="">
+                                <span class="text-xxs">Home</span>
+                            </a>
+                            <a href="intro.html" class="flex flex-col items-center">
+                                <img src="src/images/ic_Research.svg" alt="">
+                                <span class="text-xxs">Research</span>
+                            </a>
+                            <a href="product.html" class="flex flex-col items-center">
+                                <img src="src/images/ic_Product.svg" alt="">
+                                <span class="text-xxs">Product</span>
+                            </a>
+                            <a href="lab_intro.html" class="flex flex-col items-center">
+                                <img src="src/images/ic_Lab_color.svg" alt="">
+                                <span class="color-primary text-xxs">Lab</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

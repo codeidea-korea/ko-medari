@@ -1,5 +1,10 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
+.all_wrap{
+  max-width: 1024px;
+  margin:0 auto;
+}
+
 /* 모달 */
 .modal-open {
   overflow: hidden;
@@ -193,11 +198,12 @@ body {
   width: 100%;
   z-index: 20;
   max-width: 500px;
+  transition: all 0.2s;
 }
 .menu_open {
   position: fixed;
   top: 0;
-  left: 50%;
+  left: 60%;
   height: 0vh;
   background: #fff;
   z-index: -99;
@@ -214,6 +220,7 @@ body {
   z-index: 99;
   left: 50%;
   transform: translateX(-50%);
+  margin-left:262px;
 }
 .menu_list {
   font-size: 18px;
@@ -295,6 +302,14 @@ body {
   color: #333;
   font-weight: bold;
   border-bottom: 3px solid #5036fc;
+}
+
+.side-wrap{
+  width:500px;
+  position:fixed;
+  top:50%;
+  transform: translateY(-50%);
+  transition: all 0.3s;
 }
 
 /* main */
@@ -422,6 +437,19 @@ body {
 .b_nav.active {
   bottom: 0px;
   z-index: 98;
+}
+
+@media (max-width: 1024px){
+  .all_wrap{
+    max-width:500px;
+  }
+  .side-wrap{
+    display: none;
+  }
+
+  .menu_open.active {
+   margin-left:0;
+  }
 }
 /* mobile */
 @media (max-width: 768px) {
