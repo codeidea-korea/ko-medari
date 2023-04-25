@@ -442,6 +442,9 @@ body {
   bottom: 0px;
   z-index: 98;
 }
+/* 스와이퍼 깜빡임 해결 */
+.slider .swiper-slide {-webkit-backface-visibility: hidden;-webkit-transform: translate3d(0, 0, 0);}
+
 
 @media (max-width: 1024px){
   .all_wrap{
@@ -461,6 +464,9 @@ body {
 @media (max-width: 768px) {
   .mock_img03 {
     padding: 58px 0 0 0;
+  }
+  .down_btn div{
+    font-size:12px;
   }
   .tab a{font-size:14px;}
 
