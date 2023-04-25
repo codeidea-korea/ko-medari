@@ -200,6 +200,10 @@ body {
   max-width: 500px;
   transition: all 0.2s;
 }
+.menu{
+  width:24px;
+  height:24px;
+}
 .menu_open {
   position: fixed;
   top: 0;
