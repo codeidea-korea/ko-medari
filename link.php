@@ -4,7 +4,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>artipio</title>
+	<title>kodari_medari</title>
 	<meta http-equiv="imagetoolbar" content="no">
 	<meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1">
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
@@ -54,24 +54,33 @@ echo txtRecord('./@record/');
 
 	<ul class="page-link" style="width:100%;margin-bottom:-50px">
 		<li class=""><a href="index.html" target="_blank" class="add">메인페이지</a></li>
-	</ul>
-
-	<ul class="page-link">
-		<li class="" data-label="RESEARCH">
+		<li class="mt50" data-label="RESEARCH">
 			<ul>
 				<li><a href="intro.html" target="_blank" class="">PROJECT Intro</a></li>
+				<li><a href="about_app.html" target="_blank" class="">About App</a></li>
+				<li>
+					<a href="news.html" target="_blank" class="">News</a>
+					<ul>
+						<li><a href="news_detail.html" target="_blank" class="">News-detail</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="events.html" target="_blank" class="">Events</a>
+					<ul>
+						<li><a href="events_detail.html">Events-detail</a></li>
+					</ul>
+				</li>
 			</ul>
 		</li>
-	</ul>
-
-	<ul class="page-link">
-		<li class="" data-label="마켓">
+		<li class="mt50" data-label="Product">
 			<ul>
-				<li><a href="market.php" target="_blank" class="">마켓</a></li>
-				<li class="mt20"><span class="pop-inline" data-href="#pop-orderComplete">주문완료</span></li>
-				<li><span class="pop-inline " data-href="#pop-salesOrderComplete">판매주문완료</span></li>
-
-
+				<li><a href="product.html">Product</a></li>
+			</ul>
+		</li>
+		<li class="mt50" data-label="LAB">
+			<ul>
+				<li><a href="lab_intro.html">LAB_intro</a></li>
+				<li><a href="contact_us.html">Contact_us</a></li>
 			</ul>
 		</li>
 	</ul>
