@@ -445,6 +445,10 @@ body {
   bottom: 0px;
   z-index: 98;
 }
+
+footer{
+  margin-bottom:60px;
+}
 /* 스와이퍼 깜빡임 해결 */
 .slider .swiper-slide {-webkit-backface-visibility: hidden;-webkit-transform: translate3d(0, 0, 0);}
 
