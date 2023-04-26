@@ -160,11 +160,11 @@ const swiper4 = new Swiper(".swiper-container04", {
 // nav 스크롤
 $(window).on("scroll", function () {
     if ($(window).scrollTop() == 0) {
-        $(".scroll_nav img").attr("src", "src/images/medari_logo_color.svg");
+        $(".scroll_nav img").attr("src", "src/images/kodari_logo_color.svg");
         $(".scroll_nav button img").attr("src", "src/images/ham_btn_color.svg");
         $(".scroll_nav").css("background-color", "transparent");
     } else {
-        $(".scroll_nav img").attr("src", "src/images/medari_logo_color.svg");
+        $(".scroll_nav img").attr("src", "src/images/kodari_logo_color.svg");
         $(".scroll_nav button img").attr("src", "src/images/ham_btn_color.svg");
         $(".scroll_nav").css("background-color", "#fff");
     }
