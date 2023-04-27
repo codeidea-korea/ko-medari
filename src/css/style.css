@@ -449,6 +449,18 @@ body {
 footer{
   margin-bottom:60px;
 }
+
+.num_list{
+  list-style-type: decimal!important;
+  padding-left:20px;
+}
+.num_list li{
+  font-size:14px;
+  margin-bottom:10px;
+}
+.num_list li:last-child{
+  margin-bottom:0;
+}
 /* 스와이퍼 깜빡임 해결 */
 .slider .swiper-slide {-webkit-backface-visibility: hidden;-webkit-transform: translate3d(0, 0, 0);}
 
