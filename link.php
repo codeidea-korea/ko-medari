@@ -4,7 +4,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>kodari_medari</title>
+	<title>kodari_randing</title>
 	<meta http-equiv="imagetoolbar" content="no">
 	<meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1">
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
